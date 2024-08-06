@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+.abt-bck{
+  width: 100%;
+  height: 90vh;
+  background-image: url('../../assets/img4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.abt-dis{
+  top: -40px;
+  width: 20%;
+  height: 30vh;
+  margin-left: 200px;
+  background: rgba(255, 186, 0, 1);
+  position: inherit;
+  color: #FFFF;
+  padding: 50px;
+}
+
+.abt-dis p{
+  font-family:"Caesar Dressing", system-ui;
+  font-size: 38px;
+  text-align: center;
+}
+
+.abt-loc{
+  width: 30%;
+  height: 40vh;
+  background: rgba(255, 255, 255);
+  position: absolute;
+  bottom: 50px;
+  right: 250px;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+.abt-loc p{
+  font-size: 25px;
+}
+
+/* Responsive Styles for large screens (max-width: 1366px) */
+@media (max-width: 1400px) {
+  .abt-bck {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .abt-dis, .abt-loc {
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .abt-dis {
+    align-self: flex-start;
+    margin-left: 0; /* Ensures it aligns to the left */
+  }
+
+  .abt-loc {
+    align-self: flex-end;
+    margin-right: 0; /* Ensures it aligns to the right */
+  }
+
+  .abt-dis p {
+    font-size: 32px;
+  }
+
+  .abt-loc p {
+    font-size: 22px;
+  }
+}
+
+/* Responsive Styles for medium screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .abt-bck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .abt-dis, .abt-loc {
+    width: 60%;
+    height: auto;
+    margin: 10px 0;
+    padding: 25px;
+  }
+
+  .abt-dis p {
+    font-size: 28px;
+  }
+
+  .abt-loc p {
+    font-size: 20px;
+  }
+}
+
+/* Responsive Styles for small screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .abt-dis, .abt-loc {
+    width: 80%;
+    padding: 20px;
+    margin: 15px 0;
+  }
+
+  .abt-dis p {
+    font-size: 24px;
+  }
+
+  .abt-loc p {
+    font-size: 18px;
+  }
+
+  .abt-loc {
+    right: auto;
+  }
+}
+
+/* Responsive Styles for very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .abt-bck {
+    padding: 50px 20px; /* Further increase padding for small screens */
+  }
+
+  .abt-dis, .abt-loc {
+    width: 95%;
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .abt-dis p {
+    font-size: 20px;
+  }
+
+  .abt-loc p {
+    font-size: 16px;
+  }
+
+  .abt-loc {
+    margin-left: auto;
+  }
+}
