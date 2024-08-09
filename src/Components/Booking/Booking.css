@@ -1,7 +1,7 @@
 .maindiv {
   background-color: rgb(255, 255, 255);
   top: 10%;
-  margin-left: 25%;
+  /* margin-left: 25%; Remove this */
   width: 50%;
   border-radius: 0.4rem;
   margin-bottom: 100px;
@@ -10,13 +10,15 @@
 .maindiv h1 {
   font-size: 50px;
   font-weight: 500;
-  margin: 0 auto; /* Center align the header */
+  margin: auto; /* Center align the header */
+  /* Added this */
+  padding-top: 20px;
 }
 
-
-.container .text-center{
+/* Not Needed */
+/* .container .text-center {
   left: 20px;
-}
+} */
 
 .maindiv .full_name {
   padding-top: 20px;
@@ -27,10 +29,20 @@
   display: flex;
 }
 
+@media screen and (max-width: 480px) {
+  .maindiv .full_name .inner_text {
+    padding-left: 40px;
+    display: block;
+  }
+
+  .phone .phone_email {
+    margin-left: 0px;
+  }
+}
+
 .maindiv .full_name h2 {
   padding-left: 55px;
   font-size: 15px;
-
 }
 
 .maindiv .full_name .inner_text input {
@@ -45,16 +57,15 @@
   background-color: rgb(217, 217, 217);
 }
 
-.maindiv h1 {
+/* .maindiv h1 {
   font-size: 50px;
   font-weight: 500;
   padding-left: 26%;
   padding-bottom: 0;
-}
+} */
 
 .address {
   padding-left: 40px;
-
 }
 
 .address .inner_text input {
@@ -185,7 +196,6 @@
 .adult_main {
   display: flex;
   padding-left: 55px;
-
 }
 
 .adult_main .adult_inner input {
@@ -226,126 +236,131 @@
 }
 
 /* Responsive styles */
-@media (min-width: 300px) and (max-width:450px) {
+@media (min-width: 300px) and (max-width: 450px) {
   .maindiv h1 {
-      font-size: 30px;
-
+    font-size: 30px;
   }
 
   .maindiv {
-      width: 75%;
+    width: 75%;
   }
 
   .maindiv .full_name .inner_text input {
-      margin-top: 8px;
-      display: block;
-      width: 250px;
+    margin-top: 8px;
+    display: block;
+    width: 250px;
   }
 
   .address .add_inner input {
-      display: inline-flex;
-      width: 250px;
+    display: inline-flex;
+    width: 250px;
   }
 
   .address input {
-      width: 250px;
+    width: 250px;
   }
 
-
   .Arrival .inner_arival input {
-      width: 10rem;
+    width: 10rem;
   }
 
   .Departure h2 {
-      padding-left: 55px;
-
+    padding-left: 55px;
   }
 
   .Departure .inner_departure input {
-      width: 10rem;
+    width: 10rem;
   }
 
   .adult_main .adult_inner h2 {
-      padding-left: 0;
+    padding-left: 0;
   }
 
   .adult_main .adult_inner input {
-      width: 250px;
+    width: 250px;
   }
 
   .adult_main .kid_inner h2 {
-      padding-left: 0;
+    padding-left: 0;
   }
 
-
   .adult_main .kid_inner input {
-      width: 250px;
-      margin-left: 0;
+    width: 250px;
+    margin-left: 0;
   }
 
   .phone .phone_email input {
-      width: 250px;
+    width: 250px;
   }
 
   .phone .phone_inner input {
-      width: 250px;
+    width: 250px;
   }
 
-
   .address .inner_text input {
-      width: 250px;
+    width: 250px;
   }
 
   .phone .phone_email {
-      padding-left: 0;
+    padding-left: 0;
   }
 
   .maindiv {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   .maindiv .full_name .inner_text {
-      display: block;
+    display: block;
   }
 
   .phone {
-      display: block;
+    display: block;
   }
 
   .adult_main {
-      display: block;
+    display: block;
   }
 }
 
-@media (min-width:450px) and (max-width:1000px) {
+@media (min-width: 450px) and (max-width: 1000px) {
   .phone {
-      display: block;
+    display: block;
   }
 
   .phone .phone_email input {
-      width: 85%;
+    width: 85%;
   }
 
   .phone .phone_inner input {
-      width: 85%;
+    width: 85%;
   }
 
   .adult_main {
-      display: block;
-
+    display: block;
   }
 
   .adult_main .adult_inner input {
-      width: 85%;
+    width: 85%;
   }
 
   .adult_main .kid_inner input {
-      width: 85%;
-      margin-left: 0;
+    width: 85%;
+    margin-left: 0;
   }
 
   .adult_main .kid_inner h2 {
-      margin-left: 0;
+    margin-left: 0;
+  }
+}
+
+/* changes */
+@media screen and (max-width: 480px) {
+  .maindiv .full_name .inner_text {
+    padding-left: 40px;
+    display: block;
   }
 
+  .phone .phone_email {
+    margin-left: 0px;
+  }
 }

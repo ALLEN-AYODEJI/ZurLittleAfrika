@@ -10,26 +10,27 @@ function Comfort_home() {
         <div className="image-text-container">
           <img src={img5} alt="Comfort & Convenience" className="image" />
           <div className="text">
-            <h2>COMFORT & CONVENIENCE</h2>
-            <p>Each apartment is equipped with:</p>
+            <h2>KOMFORT UND BEQUEMLICHKEIT</h2>
+            <p>Jede Wohnung ist ausgestattet mit:</p>
             <ul>
-              <li>Fully equipped kitchens including dishwashers and coffee machines.</li>
-              <li>Entertainment options such as TVs and free WiFi.</li>
-              <li>Outdoor spaces with gardens and barbecue areas for relaxing evenings.</li>
+              <li>Voll ausgestattete Küchen inklusive Geschirrspüler und Kaffeemaschine.</li>
+              <li>Unterhaltungsmöglichkeiten wie Fernseher und kostenloses WLAN.</li>
+              <li>Außenbereiche mit Gärten und Grillplätzen für entspannte Abende.</li>
             </ul>
           </div>
         </div>
         <div className="image-text-container2">
           <div className="head">
-            <h2><span>YOUR HOME </span>AWAY FROM HOME</h2>
+            <h2><span>IHR ZUHAUSE </span>WEG VON ZUHAUSE</h2>
           </div>
           <div className="image-text-container3">
             <img src={img1} alt="Comfort & Convenience" className="image1" />
-            <p className='cont-list'>Enjoy amenities like:</p>
+            <p className='cont-list'>Genießen Sie Annehmlichkeiten wie:</p>
             <ul className='cont-list'>
-              <li>Washing machines and dryers for added convenience</li>
-              <li>Free parking available on-site</li>
-              <li>Suitable for long-term rentals, families, vacationers, and business travelers alike.</li>
+              <li>Waschmaschinen und Trockner für zusätzlichen Komfort</li>
+              <li>Kostenlose Parkplätze stehen vor Ort zur Verfügung</li>
+              <li>Geeignet für Langzeitmieter, Familien, Urlauber und Geschäftsreisende 
+                gleichermaßen.</li>
             </ul>
           </div>
         </div>

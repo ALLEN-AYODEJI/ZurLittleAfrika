@@ -11,22 +11,24 @@ const Explore = () => {
     <div className="explore-info">
       <div className="infos">
         <div className="left-content-box">
-          <p className='p1'>EXPLORE</p> 
-          <p className='p2'>OUR </p>
-          <p className='p3'>UNIQUE </p>
-          <p className='p4'>ACCOMODATIONS</p>
+          <p className='p1'>ENTDECKEN</p> 
+          <p className='p2'>UNSER</p>
+          <p className='p3'>EINZIGARTIGEN</p>
+          <p className='p4'>UNTERKÜNFTE</p>
         </div>
         <div className="right-content-box">
-          <p>Discover two distinct apartments:</p>
+          <p>Entdecken Sie zwei unterschiedliche Apartments:</p>
           <ul className='Apatment-rev'>
             <li>
-              Apartment 1 (120 sqm): Spacious and luxurius, featuring  a mix
-              of modern amenities and traditional African decoration. Ideal for families
-              and groups up to 7 guests
+              Apartment 1 (120 qm): Geräumig und luxuriös,
+               mit einer Mischung aus modernen Annehmlichkeiten 
+               und traditioneller afrikanischer Dekoration. 
+               Ideal für Familien und Gruppen bis zu 7 Personen.
             </li>
             <li>
-                Apartment 2 (35 sqm): Intimate and cozy, adorned with African-inspired
-                accents, perfect for couples or small families up to 2 guests.
+            Apartment 2 (35 qm): Intim und gemütlich, geschmückt
+             mit afrikanisch inspirierten Akzenten, perfekt für 
+             Paare oder kleine Familien bis zu 2 Personen."
             </li>
           </ul>
           
@@ -35,15 +37,15 @@ const Explore = () => {
       <div className="icons">
         <div className="icon">
           <FontAwesomeIcon icon={faWifi} size='4x'/>
-          <p>High Speed Wifi</p>
+          <p>Hochgeschwindigkeits-Wifi</p>
         </div>
         <div className="icon">
           <FontAwesomeIcon icon={faCar} size='4x'/>
-          <p>Portable Parking Space</p>
+          <p>Tragbarer Parkplatz</p>
         </div>
         <div className="icon">
           <FontAwesomeIcon icon={faTv} size='4x'/>
-          <p><span>Maximum</span> Entertainment</p>
+          <p><span>Maximal</span>Unterhaltung</p>
         </div>
       </div>
     </div>

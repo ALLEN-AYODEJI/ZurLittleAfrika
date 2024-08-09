@@ -99,7 +99,16 @@
 
   .icon {
     flex: 1; 
-    min-width: 100px; 
+    min-width: 80px; 
+  }
+
+}
+
+@media (min-width: 545px) {
+
+  .icon,
+  .icons p{
+    font-size: 15px;
   }
 }
 
@@ -123,5 +132,10 @@
 
   .right-content-box li {
     font-size: 1.2vw; 
+  }
+  
+
+  .icons p{
+    font-size: 20px ;
   }
 }

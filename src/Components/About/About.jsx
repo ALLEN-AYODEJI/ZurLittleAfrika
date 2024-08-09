@@ -5,13 +5,16 @@ function About() {
   return (
     <div id="about" className='abt-bck'>
       <div className="abt-dis">
-        <p>DISCOVER OUR SERENE LOCATION</p>
+        <p>ENTDECKEN SIE UNSEREN RUHIGEN STANDORT</p>
       </div>
       <div className="abt-loc">
-        <p>Located in a quiet residential area surrounded by picturesque mountain
-          views and green fields, Zur Little Afrika offers a peaceful retreat with 
-          easy access to hicking trails, biking paths, and local attraction like
-          Porta Markt and Kaiser Wilhelm Memorial.
+        <p>In einer ruhigen Wohngegend gelegen,
+           umgeben von malerischen Bergblicken und
+            grünen Feldern, bietet Zur Little Afrika
+            einen friedlichen Rückzugsort mit einfachem 
+            Zugang zu Wanderwegen, Radwegen und lokalen 
+            Sehenswürdigkeiten wie dem Porta Markt und dem 
+            Kaiser-Wilhelm-Denkmal.
         </p>
       </div>
     </div> 

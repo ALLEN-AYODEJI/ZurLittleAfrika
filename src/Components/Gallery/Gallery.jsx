@@ -40,60 +40,8 @@ const images = [
 
 function Gallery() {
   return (
-    /*<div className="gallery-section">
-      <h1 className="gallery-title">GALLERY</h1>
-      <div className="row">
-        <div className="column">
-          <img src={image1} alt="img1" />
-          <img src={image2} alt="img2" />
-          <img src={image3} alt="img3" />
-          <img src={image4} alt="img4" />
-          <img src={image5} alt="img5" />
-        </div>
-
-        <div className="column">
-          <img src={image6} alt="img6" />
-          <img src={image7} alt="img7" />
-          <img src={image8} alt="img8" />
-          <img src={image9} alt="img9" />
-          <img src={image10} alt="img10" />
-        </div>
-
-        <div className="column">
-          <img src={image11} alt="img11" />
-          <img src={image12} alt="img12" />
-          <img src={image13} alt="img13" />
-          <img src={image14} alt="img14" />
-          <img src={image15} alt="img15" />
-        </div>
-
-        <div className="column">
-          <img src={image16} alt="img16" />
-          <img src={image17} alt="img17" />
-          <img src={image18} alt="img18" />
-          <img src={image19} alt="img19" />
-          <img src={image20} alt="img20" />
-        </div>
-
-        <div className="column">
-          <img src={image21} alt="img21" />
-          <img src={image22} alt="img22" />
-          <img src={image23} alt="img23" />
-          <img src={image24} alt="img24" />
-          <img src={image25} alt="img25" />
-        </div>
-
-        <div className="column">
-          <img src={image26} alt="img26" />
-          <img src={image27} alt="img27" />
-          <img src={image28} alt="img28" />
-          <img src={image29} alt="img29" />
-          <img src={image30} alt="img30" />
-        </div>
-      </div>
-    </div>*/
     <div className="gallery-section">
-      <h1 className="gallery-title">GALLERY</h1>
+      <h1 className="gallery-title">GALERIE</h1>
       <div className="gallery-grid">
         {images.map((image, index) => (
           <div key={index} className="gallery-item">

@@ -27,11 +27,11 @@ const Hero = () => {
         style={{ backgroundImage: `url(${images[currentImageIndex]})` }}
       >
         <div className="overlay">
-          <p>WELCOME TO</p>
+          <p>WILLKOMMEN IN</p>
           <h2>ZUR</h2>
           <h1>LITTLE AFRIKA</h1>
-          <p>"Your Gateway to Luxury and Comfort"</p>
-          <button className='btn-wh'>BOOK NOW</button>
+          <p>"Ihr Tor zu Luxus und Komfort"</p>
+          <button className='btn-wh'>JETZT BUCHEN</button>
         </div>
       </div>
     </div>

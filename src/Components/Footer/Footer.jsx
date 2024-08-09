@@ -13,12 +13,13 @@ function Footer() {
           </div>
           <div className="footer-info">
             <div className="footer-section">
-              <h2>PHONE SUPPORT</h2>
-              <p>Reservation requests can be made by phone call or message:</p>
+              <h2>TELEFONUNTERSTÜTZUNG</h2>
+              <p>Reservierungsanfragen können per Telefonanruf oder
+                 Nachricht gestellt werden:</p>
               <p className="phone-number">015111231065</p>
             </div>
             <div className="footer-section">
-              <h2>ADDRESS</h2>
+              <h2>ADRESSE</h2>
               <p>Mindener Straße 1</p>
               <p>32429 Minden</p>
               <p>North Rhine Westphalia</p>
