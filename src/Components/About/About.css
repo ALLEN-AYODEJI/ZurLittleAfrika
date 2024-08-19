@@ -18,12 +18,12 @@
   background: rgba(255, 186, 0, 1);
   position: inherit;
   color: #FFFF;
-  padding: 50px;
+  padding: 50px 20px;
 }
 
 .abt-dis p{
   font-family:"Caesar Dressing", system-ui;
-  font-size: 38px;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .abt-loc p{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Responsive Styles for large screens (max-width: 1366px) */
@@ -51,8 +51,6 @@
   }
 
   .abt-dis, .abt-loc {
-    width: 40%;
-    height: auto;
     padding: 30px;
     margin: 0 auto;
   }
@@ -87,7 +85,7 @@
   }
 
   .abt-dis, .abt-loc {
-    width: 60%;
+    /* width: 60%; */
     height: auto;
     margin: 10px 0;
     padding: 25px;
@@ -105,7 +103,7 @@
 /* Responsive Styles for small screens (max-width: 768px) */
 @media (max-width: 768px) {
   .abt-dis, .abt-loc {
-    width: 80%;
+    width: 50%;
     padding: 20px;
     margin: 15px 0;
   }

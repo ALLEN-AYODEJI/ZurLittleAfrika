@@ -26,7 +26,7 @@
 }
 
 .left-content-box .p1, .p2, .p3, .p4 {
-  font-size: 12vw; 
+  font-size: 10vw; 
   display: block;
   font-family: "Caesar Dressing", system-ui;
   text-align: right;
@@ -54,7 +54,7 @@
   flex-wrap: wrap; 
   justify-content: center;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.5rem;
 }
 
 .icon {

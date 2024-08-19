@@ -26,7 +26,7 @@ footer::before {
   display: flex;
   flex-direction: column;
   margin: auto;
-  z-index: 2; /* Ensures content is above the overlay */
+  z-index: 2;
   padding: 0 20px;
 }
 
@@ -67,8 +67,8 @@ footer::before {
 .divider {
   width: 100%;
   background-color: black;
-  padding: 5px 0; /* Reduced padding */
-  margin: 10px 0; /* Reduced margin */
+  padding: 5px 0; 
+  margin: 10px 0; 
 }
 
 .footer-nav ul {

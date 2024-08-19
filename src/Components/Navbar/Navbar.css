@@ -29,7 +29,7 @@ nav li {
 
 nav a {
   height: 100%;
-  padding: 0 30px;
+  padding: 0 20px;
   display: flex;
   align-items: center;
 }
@@ -38,9 +38,8 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.logo,
-.hidlogo {
-  height: 90px;
+.logo{
+  height: 70px;
   margin-right: auto;
   padding-left: 50px;
 }
@@ -62,6 +61,7 @@ nav a:hover {
   outline: none;
 }
 
+
 /* Sidebar Styles */
 .sidebar {
   position: fixed;
@@ -72,18 +72,17 @@ nav a:hover {
   z-index: 50;
   background-color: rgba(255, 255, 255, 0.588);
   backdrop-filter: blur(10px);
-  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.502);
+  box-shadow: /*-10px 0 10px rgba(0, 0, 0, 0.502);*/ none;
   display: none;
   flex-direction: column;
-  justify-content: center; /* Center items vertically */
-  justify-content: center; /* Center items vertically */
+  justify-content: flex-start;
+  padding-top: 20px ;
   
 }
 
 .sidebar li {
-  top: 0;
-  width: 100%;
   text-align: center;
+  margin-top: 50px;
 }
 
 .sidebar a {
@@ -92,6 +91,7 @@ nav a:hover {
 
 .sidebar .btn-nav {
   margin: 10px 0;
+  list-style: none;
 }
 
 /* Responsive Styles */

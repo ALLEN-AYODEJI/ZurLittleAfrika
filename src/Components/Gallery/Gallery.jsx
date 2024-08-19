@@ -24,18 +24,13 @@ import image21 from '../../assets/img21.jpg'
 import image22 from '../../assets/img22.jpg'
 import image23 from '../../assets/img23.jpg'
 import image24 from '../../assets/img24.jpg'
-import image25 from '../../assets/img25.jpg'
-import image26 from '../../assets/img26.jpg'
-import image27 from '../../assets/img27.jpg'
-import image28 from '../../assets/img28.jpg'
-import image29 from '../../assets/img29.jpg'
-import image30 from '../../assets/img30.jpg'
+
 
 
 const images = [
   image1, image2, image3, image4, image5, image6, image7, image8, image9, image10,
   image11, image12, image13, image14, image15, image16, image17, image18, image19, image20,
-  image21, image22, image23, image24, image25, image26, image27, image28, image29, image30,
+  image21, image22, image23, image24
 ];
 
 function Gallery() {

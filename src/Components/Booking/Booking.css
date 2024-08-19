@@ -15,10 +15,10 @@
   padding-top: 20px;
 }
 
-/* Not Needed */
-/* .container .text-center {
-  left: 20px;
-} */
+
+.container  {
+  padding-right: 40px !important;
+}
 
 .maindiv .full_name {
   padding-top: 20px;
@@ -48,6 +48,7 @@
 .maindiv .full_name .inner_text input {
   padding-left: 10px;
   height: 45px;
+ margin-top: 8px;
   border: none;
   border-style: none;
   margin-left: 15px;
@@ -74,7 +75,7 @@
   border: none;
   border-style: none;
   border-radius: 0.6rem;
-  width: 83%;
+  width: 85%;
   outline: none;
   background-color: rgb(217, 217, 217);
 }
@@ -87,13 +88,13 @@
   border: none;
   border-style: none;
   border-radius: 0.6rem;
-  width: 83%;
+  width: 85%;
   outline: none;
   background-color: rgb(217, 217, 217);
 }
 
 .address .add_inner input {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   height: 45px;
   border: none;
   border-style: none;
@@ -248,16 +249,16 @@
   .maindiv .full_name .inner_text input {
     margin-top: 8px;
     display: block;
-    width: 250px;
+    /* width: 250px; */
   }
 
   .address .add_inner input {
     display: inline-flex;
-    width: 250px;
+    /* width: 250px; */
   }
 
   .address input {
-    width: 250px;
+    /* width: 250px; */
   }
 
   .Arrival .inner_arival input {
@@ -298,7 +299,7 @@
   }
 
   .address .inner_text input {
-    width: 250px;
+    /* width: 250px; */
   }
 
   .phone .phone_email {
