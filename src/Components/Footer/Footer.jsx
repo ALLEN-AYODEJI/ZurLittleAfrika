@@ -8,9 +8,6 @@ function Footer() {
     <footer id="contact">
       <div className="footer-container">
         <div className="footer-top">
-          <div className="footer-logo">
-            <img src={logo} alt="LittleAfrika Logo" className='logo' />
-          </div>
           <div className="footer-info">
             <div className="footer-section">
               <h2>TELEFONUNTERSTÜTZUNG</h2>
