@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import img6 from '../../assets/img6.jpg'
 import img7 from '../../assets/img7.jpg'
 import './Pricing.css'
@@ -16,7 +17,9 @@ function Pricing() {
         <img src={img6} alt="Apartment 1" className="pricing-image" />
         <div className="pricing-info">  
           <p>Bis zu 7 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
-          <button className="book-button">Jetzt buchen</button>
+          <Link to="booking" smooth={true} duration={500}>
+            <button className="book-button">Jetzt buchen</button>
+          </Link>
         </div>
       </div>
       <div className="pricing-card">
@@ -27,7 +30,9 @@ function Pricing() {
         <img src={img7} alt="Apartment 2" className="pricing-image" />
         <div className="pricing-info">
           <p>Bis zu 2 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
-          <button className="book-button">Jetzt buchen</button>
+          <Link to="booking" smooth={true} duration={500}>
+            <button className="book-button">Jetzt buchen</button>
+          </Link>
         </div>
       </div>
     </div>

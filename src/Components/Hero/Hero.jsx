@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css'
-import img1 from '../../assets/img1.jpg'
-import img2 from '../../assets/img2.jpg'
-import img3 from '../../assets/img3.jpg'
+import { Link } from "react-scroll";
+import img24 from '../../assets/img24.jpg'
+import img15 from '../../assets/img15.jpg'
+import img16 from '../../assets/img16.jpg'
+import img18 from '../../assets/img18.jpg'
 
 
 const images = [
- img1,img2,img3
+ img24,img15,img16,img18
 ];
 
 const Hero = () => {
@@ -15,7 +17,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -31,7 +33,10 @@ const Hero = () => {
           <h2>ZUR</h2>
           <h1>LITTLE AFRIKA</h1>
           <p>"Ihr Tor zu Luxus und Komfort"</p>
-          <button className='btn-wh'>JETZT BUCHEN</button>
+          <Link to="booking" smooth={true} duration={500}>
+           <button className='btn-wh'>JETZT BUCHEN</button>
+          </Link>
+          
         </div>
       </div>
     </div>
