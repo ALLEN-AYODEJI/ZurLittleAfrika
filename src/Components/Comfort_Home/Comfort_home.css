@@ -7,21 +7,19 @@
 }
 
 .content{
-  padding: 10%;
+  padding: 7%;
 }
 
 .image-text-container{
   padding: 10px;
   width: 100%;
-  height: 70vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .image-text-container .image{
-  width: 40%;
-  height: 70%;
+  width: 32%;
   border-radius: 40px;
   background-size: cover;
   background-position: center;
@@ -79,7 +77,6 @@
 
 .image-text-container3 .image1{
   width: 90%;
-  /* height: 50vh; */
   left: -180px;
   border-radius: 40px;
   background-size: cover;
@@ -95,18 +92,47 @@
   line-height: 40px;
 }
 
+.experience{
+  padding: 40px;
+}
+
+.exp-write{
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.porta{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 60px;
+  gap: 40px;
+}
+
+.porta .horizon{
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+}
+
+.porta_info li{
+  line-height: 30px;
+  font-size: 15px;
+}
+
 /*Smart Phone*/
 @media screen and (max-width: 767px) {
   .image-text-container{
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 
   .image-text-container .image
   {
-    width: 100%;
-    height: 40vh;
+    width: 70%;
   }
 
   .image-text-container .text{
@@ -125,7 +151,6 @@
   }
 
   .image-text-container2{
-    margin-top: 150px;
     margin-left: 50px;
     width: 100%;
     display: flex;
@@ -139,7 +164,8 @@
   }
 
   .image-text-container3{
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    padding: 0 10px;
   }
 
   .image-text-container3 .image1{
@@ -147,7 +173,20 @@
   }
   
   .image-text-container3 .cont-list{
-    line-height: 20px;
+    line-height: 25px;
+  }
+
+  .porta{
+    display: block;  
+    flex-wrap: wrap;
+  }
+
+  .porta .horizon{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    padding-bottom: 25px;
   }
 }
 

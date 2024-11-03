@@ -8,6 +8,7 @@ import Pricing from './Components/Pricing/Pricing'
 import Gallery from './Components/Gallery/Gallery'
 import Booking from './Components/Booking/Booking'
 import Footer from './Components/Footer/Footer'
+import About_me from './Components/About_me/About_me'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Explore/>
       <About/>
       <Comfort_home/>
+      <About_me/>
       <Pricing/>
       <Gallery/>
       <Booking/>
