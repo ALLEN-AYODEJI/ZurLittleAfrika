@@ -25,17 +25,17 @@ import image22 from '../../assets/w210.jpg';
 import image23 from '../../assets/w211.jpg';
 import image24 from '../../assets/w212.jpg';
 import image25 from '../../assets/w213.jpg';
-import image26 from '../../assets/w214.jpg';
+
 
 
 const imagesWohnung1 = [
-  image1,  image3, image4,  image6, image7, image8, image10, image11, image12,
-   image13, image2, image5, image9,
+   image1,  image3, image4,  image6, image7, image8, image10, image11, image12,
+  image13, image2, image5, image9
 ];
 
 const imagesWohnung2 = [
   image14, image15, image16, image18, image21, image22, image23, 
-   image26, image17, image19, image20, image24, image25,
+  image17, image19, image20, image24, image25
 ]  
 
 function Gallery() {
