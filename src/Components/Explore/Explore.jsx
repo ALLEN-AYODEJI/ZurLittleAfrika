@@ -11,24 +11,20 @@ const Explore = () => {
     <div className="explore-info">
       <div className="infos">
         <div className="left-content-box">
-          <p className='p1'>ENTDECKEN</p> 
-          <p className='p2'>UNSER</p>
-          <p className='p3'>EINZIGARTIGEN</p>
-          <p className='p4'>UNTERKÜNFTE</p>
+          <p className='p1'>EINZIGARTIGEN</p> 
+          <p className='p2'>UNTERKÜNFTE</p>
         </div>
         <div className="right-content-box">
           <p>Entdecken Sie zwei unterschiedliche Apartments:</p>
           <ul className='Apatment-rev'>
             <li>
-              Apartment 1 (120 qm): Geräumig und luxuriös,
-               mit einer Mischung aus modernen Annehmlichkeiten 
-               und traditioneller afrikanischer Dekoration. 
-               Ideal für Familien und Gruppen bis zu 7 Personen.
+              Apartment 1 (120 qm): Geräumig und luxuriös, mit einer Mischung 
+              aus modernen Annehmlichkeiten und traditioneller afrikanischer Dekoration. 
+              Ideal für Familien und Gruppen bis zu 7 Personen.
             </li>
             <li>
-            Apartment 2 (35 qm): Intim und gemütlich, geschmückt
-             mit afrikanisch inspirierten Akzenten, perfekt für 
-             Paare oder kleine Familien bis zu 2 Personen."
+              Apartment 2 (35 qm): Intim und gemütlich, geschmückt mit afrikanisch inspirierten 
+              Akzenten, perfekt für Paare oder kleine Familien bis zu 3 Personen.
             </li>
           </ul>
           

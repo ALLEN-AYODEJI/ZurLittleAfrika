@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Booking() {
   return (
     <form
-      action="https://formspree.io/f/xdknzdve"
+      action="https://formspree.io/f/mjkvyqjz"
       method="POST"
       id="booking"
       className="container p-20 maindiv mt-5"
@@ -38,7 +38,7 @@ function Booking() {
           <input
             type="text"
             className="form-control mb-2"
-            placeholder="Straßenadresse"
+            placeholder="Straße"
             name="address_line_1"
             required
           />
@@ -46,7 +46,7 @@ function Booking() {
         <input
           type="text"
           className="form-control mb-2"
-          placeholder="Straßenadresse 2"
+          placeholder="Straße 2"
           name="address_line_2"
         />
         <div className="add_inner d-flex gap-3">

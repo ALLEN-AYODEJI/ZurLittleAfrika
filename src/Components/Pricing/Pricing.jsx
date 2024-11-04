@@ -14,11 +14,11 @@ function Pricing() {
         <div className="pricing-card">
             <div className="info-style">
               <h2>Wohnung 1</h2>
-              <p>169 € pro Nacht</p>
+              <p>ab 175€/Übernachtung</p>
             </div>
           <img src={img6} alt="Apartment 1" className="pricing-image" />
           <div className="pricing-info">  
-            <p>Bis zu 7 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
+            <p>Bis zu 13 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
             <Link to="booking" smooth={true} duration={500}>
               <button className="book-button">Jetzt buchen</button>
             </Link>
@@ -27,11 +27,11 @@ function Pricing() {
         <div className="pricing-card">
             <div className="info-style">
               <h2>Wohnung 2</h2>
-              <p>69 € pro Nacht</p>
+              <p>ab 48 € / Übernachtung</p>
             </div>
           <img src={img7} alt="Apartment 2" className="pricing-image" />
           <div className="pricing-info">
-            <p>Bis zu 2 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
+            <p>Bis zu 4 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
             <Link to="booking" smooth={true} duration={500}>
               <button className="book-button">Jetzt buchen</button>
             </Link>

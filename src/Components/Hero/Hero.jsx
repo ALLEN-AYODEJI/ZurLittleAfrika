@@ -32,7 +32,7 @@ const Hero = () => {
           <p>WILLKOMMEN IN</p>
           <h2>ZUR</h2>
           <h1>LITTLE AFRIKA</h1>
-          <p>"Ihr Tor zu Luxus und Komfort"</p>
+          <p>"Ihre Tor zu Bequemlichkeit und Komfort"</p>
           <Link to="booking" smooth={true} duration={500}>
            <button className='btn-wh'>JETZT BUCHEN</button>
           </Link>

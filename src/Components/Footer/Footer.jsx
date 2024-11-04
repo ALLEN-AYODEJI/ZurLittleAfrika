@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './Footer.css';
-import logo from '../../assets/logo.png';
+
 
 function Footer() {
   return (
@@ -19,8 +19,8 @@ function Footer() {
               <h2>ADRESSE</h2>
               <p>Mindener Straße 1</p>
               <p>32429 Minden</p>
-              <p>North Rhine Westphalia</p>
-              <p>Germany</p>
+              <p>Nordrhein Westfalen</p>
+              <p>Deutschland</p>
             </div>
           </div>
         </div>

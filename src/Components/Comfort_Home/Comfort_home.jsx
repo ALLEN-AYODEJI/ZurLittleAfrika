@@ -16,7 +16,6 @@ function Comfort_home() {
             <ul>
               <li>Voll ausgestattete Küchen inklusive Geschirrspüler und Kaffeemaschine.</li>
               <li>Unterhaltungsmöglichkeiten wie Fernseher und kostenloses WLAN.</li>
-              <li>Außenbereiche mit Gärten und Grillplätzen für entspannte Abende.</li>
             </ul>
           </div>
         </div>
@@ -29,7 +28,8 @@ function Comfort_home() {
             <p className='cont-list'>Genießen Sie Annehmlichkeiten wie:</p>
             <ul className='cont-list'>
               <li>Waschmaschinen und Trockner für zusätzlichen Komfort</li>
-              <li>Kostenlose Parkplätze stehen vor Ort zur Verfügung</li>
+              <li>Außenbereiche verfügt über einen großzügigen Parkplatz, 
+                auf dem unsere Gäste kostenlos parken können, egal ob mit dem PKW oder LKW.“</li>
               <li>Geeignet für Langzeitmieter, Familien, Urlauber und Geschäftsreisende 
                 gleichermaßen.</li>
             </ul>
