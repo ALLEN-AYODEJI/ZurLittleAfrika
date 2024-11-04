@@ -53,10 +53,10 @@ function Comfort_home() {
           </p>
           <div>
             <p className='exp-write'>Das Denkmal ist barrierefrei zugänglich</p>
-            <p className='exp-write'>🏁 Sonstige Ausstattung/Einrichtung</p>  
+            <p className='exp-write'>Sonstige Ausstattung/Einrichtung</p>  
             <li>WC-Anlage</li>
             <li>Am Parkplatz finden Sie öffentliche barrierefreie Toiletten</li>
-            <li>🚘 Anreise & Parken</li>
+            <li>Anreise & Parken</li>
             <p className='exp-write'>Ein großer kostenpflichtiger Besucherparkplatz befindet sich ca. 150m vom Denkmal entfernt</p>
           </div>
 

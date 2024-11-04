@@ -82,6 +82,44 @@
   color: white;
 }
 
+.additional-charges {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.additional-charges h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.charge-item {
+  margin-bottom: 15px;
+}
+
+.charge-item h4 {
+  font-size: 1.2rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.charge-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Styling for the dog icon */
+.dog-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: #666;
+}
+
 
 /*Smart Phone*/
 @media screen and (max-width: 767px) {
@@ -112,6 +150,22 @@
 
   .pricing-info p {
     font-size: 0.875rem;
+  }
+
+  .additional-charges {
+    padding: 15px;
+  }
+
+  .additional-charges h3 {
+    font-size: 1.3rem;
+  }
+
+  .charge-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .charge-item p {
+    font-size: 0.95rem;
   }
 }
 
