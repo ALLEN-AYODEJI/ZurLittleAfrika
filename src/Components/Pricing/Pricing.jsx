@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
+import w28 from '../../assets/w28.jpg';
 import img6 from '../../assets/img6.jpg'
-import img7 from '../../assets/img7.jpg'
 import './Pricing.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDog } from '@fortawesome/free-solid-svg-icons'
@@ -27,9 +27,9 @@ function Pricing() {
         <div className="pricing-card">
             <div className="info-style">
               <h2>Wohnung 2</h2>
-              <p>ab 48 € / Übernachtung</p>
+              <p>ab 75 € / Übernachtung</p>
             </div>
-          <img src={img7} alt="Apartment 2" className="pricing-image" />
+          <img src={w28} alt="Apartment 2" className="pricing-image" />
           <div className="pricing-info">
             <p>Bis zu 4 Gäste, zusätzliche Kosten für zusätzliche Gäste</p>
             <Link to="booking" smooth={true} duration={500}>

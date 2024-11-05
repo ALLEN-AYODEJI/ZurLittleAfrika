@@ -15,16 +15,16 @@ const Explore = () => {
           <p className='p2'>UNTERKÜNFTE</p>
         </div>
         <div className="right-content-box">
-          <p>Entdecken Sie zwei unterschiedliche Apartments:</p>
+          <p>Entdecken Sie zwei unterschiedliche Wohnung:</p>
           <ul className='Apatment-rev'>
             <li>
-              Apartment 1 (120 qm): Geräumig und luxuriös, mit einer Mischung 
+              Wohnung 1 (120 qm): Geräumig und luxuriös, mit einer Mischung 
               aus modernen Annehmlichkeiten und traditioneller afrikanischer Dekoration. 
-              Ideal für Familien und Gruppen bis zu 7 Personen.
+              Ideal für Familien und Gruppen bis zu 13 Personen.
             </li>
             <li>
-              Apartment 2 (35 qm): Intim und gemütlich, geschmückt mit afrikanisch inspirierten 
-              Akzenten, perfekt für Paare oder kleine Familien bis zu 3 Personen.
+              Wohnung 2 (35 qm): Intim und gemütlich, geschmückt mit afrikanisch inspirierten 
+              Akzenten, perfekt für Paare oder kleine Familien bis zu 4 Personen.
             </li>
           </ul>
           

@@ -40,6 +40,8 @@
   height: 300px;
   object-fit: cover;
   position: relative;
+  background-color: #666;
+  
 }
 
 .pricing-info {

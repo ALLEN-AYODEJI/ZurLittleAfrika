@@ -14,7 +14,7 @@
 }
 
 .gallery-category {
-  margin-bottom: 40px; /* Space between categories */
+  margin-bottom: 40px; 
 }
 
 .gallery-category h2 {
@@ -44,7 +44,7 @@
 }
 
 .gallery-item:hover .gallery-image {
-  transform: scale(1.05);
+  transform: scale(1.50);
 }
 
 /* Media Queries for responsiveness */
